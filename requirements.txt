@@ -1,0 +1,10 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+python=3.6.5
+jupyterhub
+numpy
+gdal
+pyproj
+matplotlib
+cartopy
+nbgitpuller 
