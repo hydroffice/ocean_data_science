@@ -8,7 +8,4 @@ class WaterLevel:
         self.water_levels = list()
         self.metadata = dict()
         self.metadata["units"] = "m"
-        self.metadata["geoid"] = None
-        self.metadata["start_time"] = None
-        self.metadata["end_time"] = None
         self.metadata["count"] = 0
