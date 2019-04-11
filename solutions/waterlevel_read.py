@@ -8,10 +8,10 @@ class WaterLevel:
     def __init__(self, data_path):
         
         if not os.path.exists(data_path):
-             raise RuntimeError('Unable to locate the data file: %s' % data_path)   
+            raise RuntimeError('Unable to locate the data file: %s' % data_path)   
 
         self.data_path = data_path
-        self.epochs = list()
+        self.times = list()
         self.water_levels = list()
         self.metadata = dict()
         self.metadata["uom"] = "m"
@@ -34,8 +34,8 @@ class WaterLevel:
         count = 0  # initialize the counter for the number of rows read
         for wl_line in wl_lines:
             observations = wl_line.split()  # Tokenize the string
-            epoch = datetime.fromtimestamp(float(observations[5]), timezone.utc)
-            self.epochs.append(epoch)
+            time = datetime.fromtimestamp(float(observations[5]), timezone.utc)
+            self.times.append(time)
             self.water_levels.append(float(observations[6]))
             count += 1
         self.metadata["count"] = count

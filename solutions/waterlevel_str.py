@@ -10,7 +10,7 @@ class WaterLevel:
             raise RuntimeError('Unable to locate the data file: %s' % data_path)   
 
         self.data_path = data_path
-        self.epochs = list()
+        self.times = list()
         self.water_levels = list()
         self.metadata = dict()
         self.metadata["uom"] = "m"

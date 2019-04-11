@@ -3,7 +3,7 @@ class WaterLevel:
 
     def __init__(self):  # new method
 
-        self.epochs = list()
+        self.times = list()
         self.water_levels = list()
         self.metadata = dict()
         self.metadata["units"] = "m"
