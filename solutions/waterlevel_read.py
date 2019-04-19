@@ -27,7 +27,7 @@ class WaterLevel:
         # Open, read the content, and close the file
         wl_file = open(self.data_path)
         wl_content = wl_file.read()
-        wl_file.close
+        wl_file.close()
 
         # Tokenize the contents
         wl_lines = wl_content.splitlines()
