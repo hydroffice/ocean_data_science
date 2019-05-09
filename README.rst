@@ -1,5 +1,5 @@
-Foundations of Ocean Data Science
-=================================
+Introduction to Ocean Data Science
+==================================
 
 * Code: `GitHub repo <https://github.com/hydroffice/ocean_data_science>`_
 * Project page: `url <https://www.hydroffice.org/epom>`_
@@ -10,7 +10,7 @@ General Info
 .. image:: https://github.com/hydroffice/ocean_data_science/raw/master/images/000_000_epom_logo.png
     :alt: ePOM logo
 
-This repository contains a collection of Foundations of Ocean Data Science notebooks.
+This repository contains a collection of Introduction to Ocean Data Science notebooks.
 
 The overall task is to drive you through some basic concepts in ocean data science.
 
