@@ -13,5 +13,5 @@ class WaterLevel:
         self.times = list()
         self.water_levels = list()
         self.metadata = dict()
-        self.metadata["units"] = "m"
+        self.metadata["uom"] = "m"
         self.metadata["count"] = 0
